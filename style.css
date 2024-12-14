@@ -1,0 +1,153 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poopins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #023047;
+}
+body h1{
+    color: white;
+    font-size: 2.8rem;
+    margin-top: 4rem;
+}
+.app{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: linear-gradient(139deg,#00feba,#5b548a);
+    width: 23rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    align-items: center;
+}
+.upper button{
+    width:2.3rem ;
+    height: 2.3rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+#nav{
+    border: none;
+    outline: none;
+    width:17rem ;
+    height: 2.4rem;
+    border-radius: 3.3rem;
+    padding-left: 1rem;
+}
+#icon{
+    width:1.1rem;
+    height: 1.3rem;
+}
+.cloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sun{
+    width: 7rem;
+    height:7rem ;
+}
+.temp{
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
+   font-size: 47px;
+   font-style: italic;
+   font-weight: 700;
+   color: whitesmoke;
+}
+
+.city{
+    display: flex;
+   justify-content: center;
+   margin-top: 1.3rem;
+   font-size: 37px;
+   font-style: italic;
+   color: whitesmoke;
+}
+
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    width: fit-content;
+    height: fit-content;
+    /* background-color: yellow; */
+    justify-content: center;
+}
+
+#humid-img{
+    width:2.1rem ;
+    height: 2.1rem;
+}
+#humid-level{
+    font-size:xx-large ;
+    color: whitesmoke;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+#wind-img{
+    width:2.1rem ;
+    height: 2.1rem;
+}
+
+#wind-level{
+    font-size:xx-large ;
+    color: whitesmoke;
+}
+
+/* #humidity{
+    background-color: rebeccapurple;
+    width: fit-content;
+    height:fit-content ;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+} */
+
+/* .left  p{
+    background-color: ;
+
+} */
+@media screen and (max-width: 372px) {
+  .app{
+    width:20rem ;
+    height: 30rem;
+    border-radius: 0.5rem;
+  }
+  .upper{
+    margin-left: 0.7rem;
+    width:300px ;
+    height: 2.3rem;
+  }
+  }
